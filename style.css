@@ -1,1 +1,47 @@
+  body{
+    background: #14E8B7;
+  }
+  .wrapper{
+   background: white#0DD94A;
+   padding: 20px 15px;
+   border: solid 5px black ;
+  }
+  header{
+  background-color: #20D596;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  }
+  nav{
+    background: #19EC10;
+    padding: 5px;
+    float:left;
+    width: 120px;
+    min-height: 235px;
+  }
+  nav a{
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px;
+  &:hover{
+    background: #04D8AE;
+    color: black;
+  }
+  }
+  .main{
+    background: #059EFF;
+    color: white;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  footer{
+    background: black;
+    color: whitesmoke;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+  }
 
